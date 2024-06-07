@@ -9,5 +9,7 @@ def index(request):
             {"name":"post2", "content":"content2"}
         ]
     }
+    
+    return render(request, "index.html", context)
 
-return render(request, "index.html", context)
+
