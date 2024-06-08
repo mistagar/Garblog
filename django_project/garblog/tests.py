@@ -42,7 +42,3 @@ class PostViewSetTestCase(TestCase):
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
         self.assertEqual(Post.objects.count(), 1)
         self.assertEqual(Post.objects.get().title, 'Test Post')
-
-    # Add more test cases for other actions like retrieving, updating, and deleting posts
-
-# Add similar test cases for other viewsets and endpoints (e.g., CommentViewSet)
