@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'garblog.apps.GarblogConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
